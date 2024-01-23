@@ -14,32 +14,22 @@ When conducting a security assessment the assessor will function as a threat age
 
 Types of tests that can be carried out by testers armed with varying amounts of information about your hardware/embedded system include the following:\\
 
-* White-Box Testing - Full disclosure about the target of evaluation  (ToE) is shared with the testers; this can include design documents and schematics as well as source code and compiled binaries. This type of testing confirms the efficacy of internal vulnerability assessment and management controls by identifying the existence of known vulnerabilities and common misconfigurations. White-Box testing can also include code-reviews. \\
+* White-Box Testing - Full disclosure about the target of evaluation  (ToE) is shared with the testers; this can include design documents and schematics as well as source code and compiled binaries. This type of testing confirms the efficacy of internal vulnerability assessment and management controls by identifying the existence of known vulnerabilities and common misconfigurations. White-Box testing can also include code-reviews. 
 
-* Grey-Box Testing - Partial disclosure about the target of evaluation  (ToE) is shared with the testers; this can include some (but not all) design documents and schematics as well as source code and compiled binaries. This type of testing confirms the efficacy of internal vulnerability assessment and management controls by identifying the existence of known vulnerabilities and common misconfigurations. However, due to only partial disclosure of information relating to the Target of Evaluation (ToE) it can also result in vulnerabilities remaining undiscovered.\\
+* Grey-Box Testing - Partial disclosure about the target of evaluation  (ToE) is shared with the testers; this can include some (but not all) design documents and schematics as well as source code and compiled binaries. This type of testing confirms the efficacy of internal vulnerability assessment and management controls by identifying the existence of known vulnerabilities and common misconfigurations. However, due to only partial disclosure of information relating to the Target of Evaluation (ToE) it can also result in vulnerabilities remaining undiscovered.
 
 * Black-box testing - No information is shared with the testers about the internals of the  target of evaluation  (ToE). This type of test more accurately models the risk faced from attackers. However, the lack of information can also result in vulnerabilities remaining undiscovered in the time allocated for 
 
-When developing a testing strategy to use in a hardware security assessment we can make use of the following:\\
-\begin{itemize}
-\item Vulnerability identification in bespoke or niche hardware. \\
-\item Scenario driven testing aimed at identifying vulnerabilities.\\
-\end{itemize}
+When developing a testing strategy to use in a hardware security assessment we can make use of the following:
 
-The role of a Hardware Security Assessment is to identify and document vulnerabilities on the target system (Target of Evaluation). Testing on the target can be non-invasive or invasive and functions to simulate a set of cyber attacks. A Hardware Security Assessment is a method for gaining assurance on the security of an hardware/embedded system by attempting to breach some or all of that system's level of security, using the same tools and techniques as an adversary might use, and consists of a number of distinct iterative phases. Figure 1 illustrates the phases associated with  Hardware Security Assessment.\\
-\begin{figure}[]
-\includegraphics[width=100mm]{Images/Process.png}
-\centering
-\label{Figure-2}
-\caption{The Process Model} 
-\end{figure}
+* Vulnerability identification in bespoke or niche hardware.
+  
+* Scenario driven testing aimed at identifying vulnerabilities.
 
-Figure 2 defines the key elements in the Hardware Vulnerability Assessment (HVA) Process. A key element to note about this process is its iterative nature. Unlike other process models this model allows for a security tester to move between elements in the process model based upon the results of a specific element. These processes can be defined and documented using standards such as ISO9000 and IS17025. We can also measure the maturity of the HVA processes via a standard five level maturity model.
-%%
-%%
-%%
-%%
-%%
+The role of a Hardware Security Assessment is to identify and document vulnerabilities on the target system (Target of Evaluation). Testing on the target can be non-invasive or invasive and functions to simulate a set of cyber attacks. A Hardware Security Assessment is a method for gaining assurance on the security of an hardware/embedded system by attempting to breach some or all of that system's level of security, using the same tools and techniques as an adversary might use, and consists of a number of distinct iterative phases. Figure 1 illustrates the phases associated with  Hardware Security Assessment.
+
+The above figure defines the key elements in the Hardware Vulnerability Assessment (HVA) Process. A key element to note about this process is its iterative nature. Unlike other process models this model allows for a security tester to move between elements in the process model based upon the results of a specific element. These processes can be defined and documented using standards such as ISO9000 and IS17025. We can also measure the maturity of the HVA processes via a standard five level maturity model.
+
 ## Contact Details
 
 For further information and questions please contact Dr Andrew Blyth, PhD. <ajcblyth@snowcapcyber.com>
