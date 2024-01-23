@@ -29,49 +29,28 @@ When developing a testing strategy to use in a hardware security assessment we c
 
 The role of a Hardware Security Assessment is to identify and document vulnerabilities on the target system (Target of Evaluation). Testing on the target can be non-invasive or invasive and functions to simulate a set of cyber attacks. A Hardware Security Assessment is a method for gaining assurance on the security of an hardware/embedded system by attempting to breach some or all of that system's level of security, using the same tools and techniques as an adversary might use, and consists of a number of distinct iterative phases. Figure 1 illustrates the phases associated with  Hardware Security Assessment.\\
 
-![Process](https://github.com/Snowcap-Cyber/HardwareHacking/blob/main/Images/Process.png)
-
 Figure 2 defines the key elements in the Hardware Vulnerability Assessment (HVA) Process. A key element to note about this process is its iterative nature. Unlike other process models this model allows for a security tester to move between elements in the process model based upon the results of a specific element. These processes can be defined and documented using standards such as ISO9000 and IS17025. We can also measure the maturity of the HVA processes via a standard five level maturity model.
-%%
-%%
-%%
-%%
-%%
 
-\section{Threat Modelling and Threat Intelligence}
+## Threat Modelling and Threat Intelligence
 The goal of threat modelling is to define the set of capabilities associated with a specific threat actor. The type of threat actors that can be simulated in a HVA are depicted in Figure 3. All of the threat agents depicted in Figure 3 will have elements in common as well as elements that are unique. Each threat agent will also have a set inhibitors and amplifiers that directly impact on the likelihood of an attack.Threat agents can include: Nation States, Employees, Terrorists, Empowered Small Agents (ESA), Organised Crime and Corporations \\
-\begin{figure}
-\includegraphics[width=120mm]{Images/threat.png}
-\centering
-\label{Figure-3}
-\caption{Threat Actors}
-\end{figure}
-\begin{itemize}
-\item \textbf{Nation States}. \\
-\begin{itemize}
-\item These are groups of individuals, or organisations, resourced and backed by a nation state to achieve a particular objective. Due to the backing by a nation state these treat agents will be well resourced, well trained and well educated. Nation states are typically motivated by economic factors and focus on the theft of intellectual property.\\
-\end{itemize}
-\item \textbf{Employees}. \\
-\begin{itemize}
-\item These threat agents are individuals that work within an organisation and thus have physical and remote access to infrastructure of an organisation. Employees are typically motivated by Ideology, Ego or Revenge. They can also be coerced into performing actions via bribery or blackmail. \\
-\end{itemize}
-\item \textbf{Terrorists}. \\
-\begin{itemize}
-\item These threat agents are individuals or groups of individuals that seek to influence behaviour of a person, group of people or nation state via the creation terror through illegal acts. These types of threat agents are typically ideologically motivated and can be well resourced. \\
-\end{itemize}
-\item \textbf{Empowered Small Agents}. \\
-\begin{itemize}
-\item Empowered Small Agents is a broad group of threat agents covering the press, hacktivists and individual/groups of hackers. Their motivations motivations and capabilities will vary.\\
-\end{itemize}
-\item \textbf{Organised Crime}. \\
-\begin{itemize}
-\item This type of threat agent is concerned with making money and will typically focus on blackmailing an organisations to via the threat of publication of its intellectual property. To achieve their goals Organised Crime typically works through proxies such as employees via bribery or blackmail, and/or empowered small agents (EMA). Typically these types of threat agents are well motivated via financial rewards.\\
-\end{itemize}
-\item \textbf{Corporations}. \\
-\begin{itemize}
-\item These are commercial organisations that are motivated by economic forces and focus on the theft of intellectual property. To achieve their goals they can make use of employees via bribery or blackmail, and/or empowered small agents (EMA). Typically these types of threat agents are well financially resourced.
-\end{itemize}
-\end{itemize}
+
+* Nation States
+ *These are groups of individuals, or organisations, resourced and backed by a nation state to achieve a particular objective. Due to the backing by a nation state these treat agents will be well resourced, well trained and well educated. Nation states are typically motivated by economic factors and focus on the theft of intellectual property.
+
+* Employees
+ * These threat agents are individuals that work within an organisation and thus have physical and remote access to infrastructure of an organisation. Employees are typically motivated by Ideology, Ego or Revenge. They can also be coerced into performing actions via bribery or blackmail. 
+
+* Terrorists
+ * These threat agents are individuals or groups of individuals that seek to influence behaviour of a person, group of people or nation state via the creation terror through illegal acts. These types of threat agents are typically ideologically motivated and can be well resourced. 
+
+* Empowered Small Agents
+ * Empowered Small Agents is a broad group of threat agents covering the press, hacktivists and individual/groups of hackers. Their motivations motivations and capabilities will vary.
+  
+* Organised Crime
+ ^ This type of threat agent is concerned with making money and will typically focus on blackmailing an organisations to via the threat of publication of its intellectual property. To achieve their goals Organised Crime typically works through proxies such as employees via bribery or blackmail, and/or empowered small agents (EMA). Typically these types of threat agents are well motivated via financial rewards.
+
+* Corporations
+ * These are commercial organisations that are motivated by economic forces and focus on the theft of intellectual property. To achieve their goals they can make use of employees via bribery or blackmail, and/or empowered small agents (EMA). Typically these types of threat agents are well financially resourced.
 
 When specifying a Hardware Vulnerability Assessment (HVA) we need to define a set of threat actors that the assessment will simulate along with a set of capabilities for each simulated threat actor. When specifying the capabilities of a threat actor for a hardware vulnerability test there are a number of methods that we can use.   The simulated attacks for each threat actor are specified via an attack scenario and an attack tree. The attack scenario defines the goals, content and limitations of the attack while the attack graph specifies the attack in greater detail. As part of specifying the capabilities of a threat actor in an attack scenario we should also specify their:\\
 \begin{itemize}
