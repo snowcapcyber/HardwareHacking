@@ -29,8 +29,7 @@ When developing a testing strategy to use in a hardware security assessment we c
 
 The role of a Hardware Security Assessment is to identify and document vulnerabilities on the target system (Target of Evaluation). Testing on the target can be non-invasive or invasive and functions to simulate a set of cyber attacks. A Hardware Security Assessment is a method for gaining assurance on the security of an hardware/embedded system by attempting to breach some or all of that system's level of security, using the same tools and techniques as an adversary might use, and consists of a number of distinct iterative phases. Figure 1 illustrates the phases associated with  Hardware Security Assessment.\\
 
-
-FIGIURE 2
+![Process](https://github.com/Snowcap-Cyber/HardwareHacking/blob/main/Images/Process.png)
 
 Figure 2 defines the key elements in the Hardware Vulnerability Assessment (HVA) Process. A key element to note about this process is its iterative nature. Unlike other process models this model allows for a security tester to move between elements in the process model based upon the results of a specific element. These processes can be defined and documented using standards such as ISO9000 and IS17025. We can also measure the maturity of the HVA processes via a standard five level maturity model.
 %%
