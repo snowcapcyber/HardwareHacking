@@ -1,6 +1,8 @@
 # Hardware Hacking Tools and Techniques
 
-## Chatper 1 - Introduction to Performing a Hardware Penetration Test
+This book introduces all of the conepts, tools and technqiues associated with performing a penetration test on a Hardware Device.
+
+## Chatper 1 - Introduction to a Hardware Penetration Test
 
 ## Chatper 2 - Introduction to Electronics and PCB Design
 
